@@ -1,0 +1,73 @@
+[loveeeee.html](https://github.com/user-attachments/files/23143552/loveeeee.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our 100 Days ❤</title>
+<style>
+  body {
+    background-color: #5a0000; /* dark red */
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font-size: 3em;
+    margin-top: 100px;
+    animation: fadeIn 2s ease-in;
+  }
+  p {
+    font-size: 1.3em;
+    margin-top: 20px;
+    animation: fadeIn 3s ease-in;
+  }
+  button {
+    background-color: white;
+    color: #D2042D;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: 0.3s;
+  }
+  button:hover {
+    background-color: #ffccd5;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+</style>
+</head>
+<body>
+  <h1>Happy 100 Days,Love ❤</h1>
+  <p>cheers to the coolest boyfriend i was so lucky to find.</p>
+  <button onclick="showMessage()">Click Me 💌</button>
+
+  <p id="message" style="display:none; margin-top:40px; font-size:1.5em;"></p>
+
+  <script>
+    function showMessage() {
+      const messages = [
+        "pandey",
+        "i hope we meet soon and i get to kiss tf out of you💖",
+        "I will forever be yours even for the next 10000000 days",
+        "wiseeeeeeee mennnnn sayyyyyyyy onlyyy foolsssss rushhhhhh innn💞",
+        "buttttttt i cantttttt helppppppp fallingg in loveeee w youuuuuuuu",
+        "also i know you will be vvv successful (only if you marry me)",
+        "if the world was to end tommorrow i wouldnt regret my last 100 days cause spending them with you was top tier", 
+        "I LOVE YOU, HARSHHH.",
+ ];
+      const random = Math.floor(Math.random() * messages.length);
+      const msgBox = document.getElementById('message');
+      msgBox.textContent = messages[random];
+      msgBox.style.display = 'block';
+    }
+  </script>
+</body>
+</html>
